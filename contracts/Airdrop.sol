@@ -4,7 +4,7 @@ pragma solidity 0.8.11;
 
 import "./ToknITO.sol";
 
-contract Airdrop is ToknITO {
+contract Airdrop is ToknITO { 
     
     constructor(ToknFactory _toknFactory, IERC20 _usdc) ToknITO(_toknFactory, _usdc) {
     }
